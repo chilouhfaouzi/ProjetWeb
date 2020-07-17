@@ -1,0 +1,15 @@
+﻿Installation :
+==============
+
+1- Utiliser le fichier projet_tp4 pour créer la base de données
+2- Placer le dossier "TP4_ex1" sur le répertoire www de votre serveur
+       pour XAMP par exemple,  placer  le ici  C:\wamp64\www\
+3- Ouvrir le fichier admin/init.php puis faire:
+ - mettre dans la variable $pathprojet le chemin vers le dossier contenant  l'application
+4- configurer les paramètres d'accès à la base de données (login, password) dans la page admin/connect.php
+
+5- Pointer votre navigateur sur http://localhost/Projet_tp4/
+  - Pour se connecter comme admin : login:admin et password = admin
+
+
+============

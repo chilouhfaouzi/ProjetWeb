@@ -1,0 +1,661 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container,
+.Hcontainer {
+  width: 65%;
+  margin: auto;
+}
+
+.Hcontainer {
+  padding: 10px 0;
+  z-index: 1;
+  position: relative;
+}
+
+.table {
+  height: 100%;
+  display: table;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.container {
+  padding: 30px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-back {
+  background-color: #f7600e;
+}
+
+.main-color {
+  color: #f7600e;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.disp-none {
+  display: none;
+}
+
+::-webkit-input-placeholder {
+  font-size: 25px;
+  position: relative;
+  top: 40px;
+}
+
+::-moz-input-placeholder {
+  font-size: 25px;
+  position: relative;
+  top: 40px;
+}
+
+::-ms-input-placeholder {
+  font-size: 25px;
+  position: relative;
+  top: 40px;
+}
+
+/*End Generales */
+/*Start Header */
+.header {
+  background: url("../images/mac.png") no-repeat;
+  width: 100%;
+  /* height: 600px;*/
+  position: relative;
+  background-position-y: -180px;
+  color: #fdfdfd;
+}
+
+.header .overlay {
+  position: absolute;
+  background-color: #303439;
+  opacity: 0.9;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header .navBar {
+  overflow: hidden;
+  /*hit kayan 3anasir ydar lihom float hssan ykon lcona=tainer dyalhom overflow:hidder */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.header .navBar .btn-menu {
+  text-align: center;
+  font-size: 16px -1;
+}
+
+.header .navBar .btn-menu .svg-inline--fa.fa-w-14 {
+  width: 25px;
+  top: 2px;
+  position: relative;
+}
+
+.header .navBar .btn-menu .svg-inline--fa {
+  height: 19px;
+}
+
+.header .intro {
+  /* margin-top: 80px;*/
+  display: table-cell;
+  /*cell by default katkon lfo9 f table */
+  /*Deja div parrent khasso ykon display :table-row */
+  vertical-align: middle;
+  /*bach cell tji f lwasst */
+}
+
+.header .intro h1 {
+  letter-spacing: 1px;
+  font-size: 2.6em;
+  font-weight: 800;
+  margin: 0;
+}
+
+.header .intro p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.header .intro .H-butonns {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.header .intro .H-butonns button {
+  color: #ffffff;
+  padding: 10px 35px;
+  border-radius: 10px;
+  margin: 0 1%;
+  width: 22%;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #ffffff;
+}
+
+.header .intro .H-butonns button:hover {
+  border: 1px solid #f7600e !important;
+  background-color: #f7600e;
+}
+
+.header .arrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.header .arrow span {
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+/*End Header */
+/*start Features */
+.features {
+  padding: 40px 0;
+  color: #303439;
+  overflow: hidden;
+}
+
+.features .feat {
+  float: left;
+  width: 22.5%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.features .feat:first-of-type {
+  margin-left: 0 !important;
+}
+
+.features .feat:last-of-type {
+  margin-right: 0 !important;
+}
+
+.features .feat span {
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 10px 0;
+  display: block;
+  margin-bottom: 25px;
+  height: 120px;
+  width: 120px;
+  line-height: 120px;
+  margin-left: 20%;
+  cursor: pointer;
+}
+
+.features .feat span:hover {
+  background-color: #f7600e;
+  color: #fdfdfd;
+  border: 1px solid #f7600e;
+}
+
+.features .feat i {
+  color: #f7600e;
+}
+
+.features .feat h3 {
+  font-weight: 600;
+  font-size: 15px;
+  color: #3b434c;
+}
+
+.features .feat p,
+.our-works p,
+.our-team p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #787d83;
+}
+
+/*End Features */
+/*Start   */
+.subs {
+  background: url("../images/subs.png") no-repeat;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.subs .container,
+.they-say .container,
+.contact-us .container {
+  position: relative;
+  /*bach ykon howa lfo9  3la overlay wala dir z-index */
+  z-index: 2;
+  /*Khass ykon kbar mn hadak dyal overlya*/
+  text-align: center;
+}
+
+.subs form input[type="email"] {
+  color: #3b434c;
+  background-color: #ffffff;
+  width: 45%;
+  border: 1px solid grey;
+  margin-right: 15px;
+}
+
+.subs form input[type="button"] {
+  width: 20%;
+  background-color: #f7600e;
+  color: #ffffff;
+  border: 1px solid #f7600e;
+  display: table-cell;
+}
+
+.subs form input[type="button"],
+.subs form input[type="email"] {
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.subs .container .table-row form {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*End   */
+/*Start  our works */
+.our-works p:first-child {
+  margin-bottom: 60px;
+}
+
+.our-works .row .our-works-block {
+  width: 31.333%;
+  margin-left: 2%;
+  position: relative;
+  overflow: hidden;
+}
+
+.our-works .row {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.our-works .row .our-works-block:first-of-type {
+  margin-left: 0 !important;
+}
+
+.our-works .row .our-works-block img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.our-works-block .projects-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 35px;
+  cursor: pointer;
+  display: none;
+}
+
+.our-works-block:hover .projects-overlay,
+.row:last-of-type .our-works-block:last-child .projects-overlay {
+  display: block;
+}
+
+.our-works-block .projects-overlay h3 {
+  font-weight: normal;
+  line-height: 0.7 !important;
+}
+
+.our-works-block .projects-overlay p {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.our-works-block button {
+  background-color: #fdfdfd;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.container button.last {
+  padding: 10px 35px;
+  background: transparent;
+  color: #3b434c;
+  border: 1px solid #d8d9db;
+  border-radius: 5px;
+  margin: 50px 0;
+  color: #3d3d3d;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/*End  our works */
+/*Start what-they-say   */
+.they-say {
+  background: url("../images/woman.png") no-repeat;
+  width: 100%;
+  height: 350px;
+  position: relative;
+  color: #fdfdfd;
+}
+
+.they-say .table-row .they-say-block.active {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.they-say img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.they-say p {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+.they-say span {
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.they-say span:hover {
+  border-bottom: 2px solid #f7600e;
+}
+
+.they-say .fa-chevron-right,
+.they-say .fa-chevron-left {
+  position: absolute;
+  top: 50%;
+  color: #999;
+  cursor: pointer;
+}
+
+.they-say .fa-chevron-right:hover,
+.they-say .fa-chevron-left:hover {
+  color: #f7600e;
+}
+
+.they-say .fa-chevron-right {
+  right: 0;
+}
+
+.they-say .fa-chevron-left {
+  left: 0;
+}
+
+/*End they-say  */
+/*Our team */
+.our-team .team {
+  color: #787d83;
+  margin: 40px 0;
+  /* position: relative; */
+  float: left;
+  width: 23.5%;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.container .team.last {
+  margin-right: 0 !important;
+}
+
+/*.our-team .team-overlay{
+position: absolute;
+background-color: #787d83;
+left: 0;
+top: 0;
+height: 234.5px;
+width: 100%;
+opacity: 0.7;
+cursor: pointer;
+display: block;
+}*/
+/*.our-team .team:hover .team-overlay{
+   opacity: 0;
+  
+}*/
+.our-team img {
+  -webkit-filter: gray;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.our-team .team:hover img {
+  height: 240px !important;
+  width: 100% !important;
+  border-bottom: 3px solid #f7600e;
+  -webkit-filter: none;
+  filter: none;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  margin-top: 0 !important;
+}
+
+.our-team .team:hover,
+.our-team .team:hover p {
+  color: black;
+}
+
+.our-team .team:hover .fa-facebook-f,
+.contac-icons .fa-facebook-f {
+  background-color: #3b5998;
+}
+
+.our-team .team:hover .fa-twitter,
+.contac-icons .fa-twitter {
+  background-color: #1da1f2;
+}
+
+.our-team .team:hover .fa-google-plus-g,
+.contac-icons .fa-google-plus-g {
+  background-color: #dd4b39;
+}
+
+.our-team img {
+  width: 100%;
+  /* height: 100%;*/
+  margin-top: 10px;
+}
+
+.team-S-icon .svg-inline--fa,
+.contac-icons .svg-inline--fa {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.our-team .team-S-icon .svg-inline--fa {
+  background-color: #787d83;
+}
+
+.our-team li {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #303439;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #787d83;
+}
+
+.our-team li.active {
+  background-color: #f7600e;
+}
+
+/*End Our team */
+/*Start contact Us */
+.contact-us {
+  background: url("../images/conatct.png");
+  width: 100%;
+  height: 650px;
+  position: relative;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.contact-us .container {
+  padding: 30px 100px;
+}
+
+.contact-us h2 {
+  font-weight: normal;
+}
+
+.contact-us p {
+  line-height: 2;
+  font-size: 14px;
+}
+
+.contact-us form {
+  margin-top: 60px;
+}
+
+.contact-us form input[name="mail"] {
+  margin-right: 2%;
+}
+
+.contact-us form input[name="subject"]:focus,
+.contact-us form input[name="mail"]:focus,
+.contact-us form textarea:focus {
+  border: 2px solid #f7600e;
+}
+
+.contact-us form input[name="mail"],
+.contact-us form input[name="subject"] {
+  width: 48% !important;
+  height: 38px;
+}
+
+.contact-us form input[name="mail"],
+.contact-us form input[name="subject"],
+.contact-us form textarea {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.contact-us form textarea {
+  margin-top: 25px;
+  height: 200px;
+  color: black;
+}
+
+.contact-us form button {
+  margin-top: 20px;
+  background-color: #f7600e;
+  color: #ffffff;
+  width: 140px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 35px;
+  cursor: pointer;
+}
+
+.contac-icons {
+  margin-top: 20px;
+}
+
+.contac-icons .svg-inline--fa {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contac-icons .svg-inline--fa:hover {
+  width: 30px;
+  height: 30px;
+}
+
+.contac-icons .fa-linkedin-in {
+  background-color: #0077b5;
+}
+
+.contac-icons .fa-instagram {
+  background-color: #fd1d1d;
+}
+
+/*End contact Us */
+/*Start fotter*/
+.fotter {
+  padding: 30px 0;
+  background-color: #303439;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  overflow: hidden;
+}
+
+.fotter .copyright {
+  font-size: 13px;
+}
+
+/*End fotter*/
+/*Start Extend  */
+.header,
+.subs,
+.they-say,
+.contact-us {
+  background-size: cover;
+}
+
+.header .intro .H-butonns button,
+.features .feat span,
+.contac-icons .svg-inline--fa {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,2 @@
+
+-C'est mieux de faire cree table de l'adress (normalisation) ,mais J'ai le fait Dans users parce que le nombre de pays est nombreux .

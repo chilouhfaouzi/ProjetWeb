@@ -1,0 +1,215 @@
+/*Start main rules */
+body{
+  background-color: #f4f4f4;
+  font-size: 16px;
+}
+h1{
+  font-size: 50px;
+  margin: 25px 0;
+  font-weight: bold;
+  color: #444;
+}
+
+a:hover{
+  text-decoration: none;
+}
+section{
+  padding: 30px 0;
+}
+.form-control{
+  position: relative;   /*bach dir dir nejma b after w tkon required */
+}
+.logo{
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 32px;
+}
+.logo .b{
+  color: #00cec9;
+}
+.logo .o{
+  color: #ff7675;
+}
+.logo .u{
+  color: #fab1a0;
+}
+.logo .k{
+  color: #e17055;
+}
+.logo .i{
+  color: #fdcb6e;
+}
+/*End  main rules */
+
+
+/*Start Login Form */
+.login{
+  width: 300px;
+  margin:40px  auto;
+}
+.login h3{
+color: #888;
+}
+.login input{
+margin-bottom: 10px;
+}
+.login .form-control{
+background-color: #f5f5f5;
+}
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+/*End Login Form */
+
+/*Start Navbar */
+.navbar {
+padding-top: 0 !important;
+padding-bottom: 0 !important;
+}
+
+.navbar .nav-link,.navbar .navbar-brand {
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.navbar-dark .navbar-nav .nav-item{
+  margin-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+ .navbar-dark .navbar-nav .nav-link:focus {
+color:#3498db ;
+}
+.navbar-dark .dropdown-menu{
+background-color: #3498db;
+color: #fff;
+border-radius: 0 !important;
+}
+.navbar-dark .dropdown-menu a{
+  color: #fff;
+}
+
+/*End Navbar */
+
+
+/*Start Member page */
+.alert{
+}
+.astresk{
+position: absolute;
+top: 23%;
+right: 25px;
+color: brown;
+font-size: 18px;
+}
+/*End Member page */
+
+/*Start categories page */
+.admin_categories .list-cate > li
+{
+  border: 2px solid #353c45 !important;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.admin_categories .cate li
+{
+  font-size: 22px;
+  color: #353c45;
+  font-weight: 600;
+}
+.admin_categories .cate_mod li
+{
+  display: inline-block;
+  margin-left: 20px;
+}
+.admin_categories .f-rename
+{
+  width: 60%;
+  margin: 40px auto;
+  position: relative;
+}
+.admin_categories .f-rename .astresk{
+  top: 10px;
+}
+.admin_categories .f-rename input
+{
+margin-bottom: 10px;
+}
+/*End categories page */
+
+/*Manage Items */
+.manage_items .table-product td,.manage_items .table-product th{
+  border: 1px solid black;
+}
+.manage_items .table-product th a{
+float: right;
+margin-right: 20px;
+}
+.img-fluid{
+  width: 240px;
+  height: 200px;
+}
+/*End Manage Items */
+
+/*Start add items page */
+.add_items .f-add-items{
+
+}
+.add_items .f-add-items >div {
+  margin: 25px auto ;
+}
+.add_items .f-add-items >div .astresk{
+  right: 15%;
+}
+
+
+.add_items .f-add-items input,.add_items .f-add-items textarea,.add_items .f-add-items select{
+width: 90% !important;
+display: inline-block;
+}
+.add_items .f-add-items textarea{
+  height: 150px !important;
+}
+.add_items .f-add-items .dollars{
+  font-size: 25px;
+  font-weight: 600;
+  color: #3498db;
+}
+/*End add items page */
+
+/*Start dashboard page */
+.dashboard{
+
+}
+.dashboard .stat{
+  background-color: #eee;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+.dashboard .stat span{
+display: block;
+font-size: 45px;
+}
+.dashboard .latest{
+  padding: 20px 0;
+}
+.dashboard .stat.st-members{
+background-color: #d63031;
+}
+.dashboard .stat.st-items{
+background-color: #0984e3;
+}
+.dashboard .stat.st-sells{
+background-color: #ff6348;
+}
+.dashboard .stat.st-panier{
+background-color: #2ed573;
+}
+.dashboard .members-list li:nth-child(even){
+  background-color: #eee;
+}
+/*End dashboard page */

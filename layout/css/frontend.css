@@ -1,0 +1,429 @@
+/*Start main rules */
+body {
+  background-color: #f4f4f4;
+  font-size: 16px;
+}
+h1 {
+  font-size: 50px;
+  margin: 25px 0;
+  font-weight: bold;
+  color: #444;
+}
+.form-control {
+  position: relative; /*bach dir dir nejma b after w tkon required */
+}
+.card-img-top {
+  height: 400px;
+}
+.card-body .btn {
+  width: 140px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+section {
+  padding: 20px 0;
+}
+/*End  main rules */
+
+/*Start Navbar */
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.navbar-dark .navbar-nav .nav-item {
+  margin-left: 30px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #3498db;
+}
+.navbar-dark .dropdown-menu {
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 0 !important;
+  min-width: 12rem;
+}
+.navbar-dark .dropdown-item {
+  transition: all 1s ease-in-out;
+}
+.navbar-dark .dropdown-item:hover {
+  background-color: #3498db;
+  font-size: 20px;
+}
+
+.navbar-dark .dropdown-menu a {
+  color: #fff;
+}
+
+/*End Navbar */
+
+/*Start Login Form */
+.login {
+  width: 300px;
+  margin: 40px auto;
+}
+.login h4 {
+  color: #888;
+}
+.login input {
+  margin-bottom: 10px;
+}
+.login .form-control {
+  background-color: #f5f5f5;
+}
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+/*End Login Form */
+/*Start Log page */
+.log {
+  padding: 40px 0;
+}
+.h-log {
+  color: #888;
+  cursor: pointer;
+}
+.h-log .selected {
+  color: #f53f3f;
+  font-weight: 600;
+}
+.log form {
+  width: 400px;
+  margin: 40px auto;
+}
+.log .sign {
+  display: none;
+}
+.log input {
+  margin-bottom: 10px;
+}
+.log .form-control {
+  background-color: #f5f5f5;
+}
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+/*End Login page */
+
+/*Start Navbar */
+
+/*End Navbar */
+
+/*Inscription page */
+.log .frm {
+  position: relative;
+}
+.log .frm .astresk {
+  top: 20%;
+  right: 20px;
+}
+/*End Inscription page */
+/*Start Member page */
+
+.astresk {
+  position: absolute;
+  top: 23%;
+  right: 25px;
+  color: brown;
+  font-size: 18px;
+}
+/*End Member page */
+/*Start Logo */
+.logo {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 32px;
+}
+.logo .b {
+  color: #00cec9;
+}
+.logo .o {
+  color: #ff7675;
+}
+.logo .u {
+  color: #fab1a0;
+}
+.logo .k {
+  color: #e17055;
+}
+.logo .i {
+  color: #fdcb6e;
+}
+.logo-login {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+/*End Logo */
+
+/*Index Page */
+.categories-home {
+  padding: 20px 0 0;
+}
+.categories-home span {
+  display: inline-block;
+  background-color: #343a40;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 100px;
+  box-shadow: -2px 1px 15px -1px #343a40;
+}
+.categories-home .icon-cat {
+  color: #fff;
+}
+.categories-home .cat-hom {
+  margin-top: 8px;
+  font-size: 18px;
+  color: #343a40;
+}
+.home .home-cate {
+  margin-right: 20px;
+  font-weight: 600;
+}
+.home .see_more {
+  vertical-align: sub;
+}
+.item-box {
+  margin: 20px 0;
+  height: 740px;
+  overflow: hidden;
+}
+.home .card-img-top {
+  height: 320px;
+}
+/*End Index Page */
+
+/*Start help page */
+.sign_more_help {
+  background-color: #caecfb;
+  padding: 40px 0;
+}
+.sign_more_help .btn {
+  padding: 10px 60px;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.sign_more_help .register_now {
+  color: #125886;
+}
+.frequently_ques {
+  padding: 30px 0;
+}
+.frequently_ques h2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #125886;
+}
+.frequently_ques h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.contact-us {
+  background-color: #eee;
+  padding: 30px 0;
+}
+.contact-us h2 {
+  color: #125886;
+  font-weight: 600;
+}
+.contact-us .row {
+  margin: 20px 0;
+}
+.contact-us .row > div .H-contact {
+  font-size: 30px;
+  font-weight: 600;
+}
+.contact-us .row > div .tel {
+  margin: 20px 0 10px;
+  color: black;
+}
+.contact-us .row > div p:last-of-type {
+  color: #444;
+}
+/*End help page */
+
+/*Start Cateforie page */
+.categories h2,
+.best_offers h2 {
+  margin-bottom: 30px;
+}
+.item-box {
+  /*position: relative;*/
+  margin-bottom: 15px;
+}
+.item-box .card-title {
+  font-weight: 600;
+}
+.item-box .price {
+  /*position: absolute;*/
+  background-color: #00cec9;
+  color: #caecfb;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 15px 0 0;
+  display: inline-block;
+  /*top:24px;
+left: 0;*/
+}
+
+.item-box .sold {
+  display: block;
+  color: crimson;
+  margin: 15px 0;
+  font-weight: 600;
+}
+.item-box .add_cart {
+  padding: 10px 0;
+  display: block;
+}
+.item-box .add_cart {
+  padding: 10px 0;
+  display: block;
+}
+/*End Cateforie page */
+
+/*Start item page */
+.item {
+}
+.item .row {
+  margin: 50px 0;
+}
+.item .row .price {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 25px;
+}
+.item .row .sold {
+  font-size: 22px;
+  font-weight: 600;
+  color: brown;
+}
+.item .row .image_product {
+  max-width: 100%;
+  height: 500px;
+}
+.item .row ul {
+  /*Dyal description jaya mn database */
+  text-align: left;
+}
+.item .row .buy_cart {
+  margin: 40px 0;
+}
+.item .btn {
+  height: 37.33px;
+}
+/*End item page */
+
+/*Start Cart Page */
+.box_cart {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 30px 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+.box_cart .img_cart {
+  width: 300px;
+  height: 300px;
+}
+.box_cart .price {
+  font-weight: 600;
+  font-size: 30px;
+}
+.box_cart .lead {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.cart form .buy_cart {
+  margin: 20px 0;
+}
+.item form {
+  margin: 25px 0;
+}
+.item form label {
+  font-weight: 600;
+}
+.item form input {
+  padding: 2px 5px;
+}
+.box_cart .buy {
+  color: #fff;
+}
+.box_cart .buy a {
+  padding: 8px 15px;
+  font-family: fantasy;
+}
+.box_cart .remove_cart {
+  font-size: 25px;
+}
+.box_cart .remove_cart,
+.box_cart .buy {
+  position: absolute;
+  left: 40%;
+  bottom: 40px;
+}
+
+/*End Cart Page */
+
+/*Start Buy Page */
+.order {
+  border: 2px solid #088;
+  padding: 20px 10px;
+  text-align: right;
+  font-size: 20px;
+}
+.order p strong{
+  color: crimson;
+}
+.order .Sum {
+  margin-top: 20px;
+}
+.price p {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.order .Sum hr {
+  float: right;
+  width: 35%;
+  border-top: 2px solid black;
+}
+
+/*ُEnd Buy Page */
+/*Start Orders page */
+.order-box {
+  border: 1.5px solid #088;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px 5px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+.order-box .row > div {
+  padding-left: 20px;
+}
+/*End Orders page */
+
+/*Start footer */
+.footer {
+  padding: 10px 0;
+  background-color: #444;
+  color: #ffffff;
+}
+.fix-footer {
+  min-height: 580px; /*If The are a page which its height < height of screen ==> it will not appear above */
+}
+/*End footer */
